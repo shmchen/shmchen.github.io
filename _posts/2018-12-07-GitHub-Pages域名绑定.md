@@ -6,6 +6,8 @@ categories: test
 tags: github 
 ---
 
+
+
 ### 1. 创建GitHub Pages
 
    如果不知道如何创建GitHub Pages，https://pages.github.com/
@@ -16,11 +18,11 @@ tags: github
 
 ### 3. 到项目的设置中添加刚刚买的域名，推荐下面的方式，不要用新建文件方式，免得出错
 
-   ![](https://img-blog.csdn.net/20180613211251916?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+   ![图片](http://img-blog.csdn.net/20180613211251916?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
    往下翻输入你自己的域名，比如：example.com
 
-   ![](https://img-blog.csdn.net/2018061321173766?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+   ![图片](https://img-blog.csdn.net/2018061321173766?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 ### 4. 域名解析
 
@@ -30,7 +32,7 @@ tags: github
 
 <p style='color:red;'>仅仅添加两个CNAME类型即可，不需要管A类型，或者IP什么的</p>
 
-![](https://img-blog.csdn.net/20180613213831352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![图片](https://img-blog.csdn.net/20180613213831352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Zsb3dlckRhbmNlMTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 有的旧教程里面各种ping主机，填IP，统统不需要。
 
