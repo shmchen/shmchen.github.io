@@ -65,11 +65,12 @@ page {
 ```
 
 ###### 上一种方式需要计算比较麻烦，特别是有些根据网络请求回来的内容撑高，还可能要考虑一些数据不够、请求失败等问题，第二种是利用样式来自动拉伸，如使用flex布局
+
 ```html
 <view class='header'></view>
 <view class='box' ></view>
 ```
-```
+```css
 page {
   width: 100%;
   height: 100%;
