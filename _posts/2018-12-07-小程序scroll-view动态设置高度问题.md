@@ -15,14 +15,15 @@ tags: 微信小程序
 有两种处理方式:
 
 ###### 第一种header样式写死高度50px，在js的data中添加一个属性，在页面生命周期函数onload中计算
-```
+
+```html
 <view class='header'>
 </view>
 <view class='box' style='height:{{boxHeight}}px;'>
 </view>
 ```
 
-```
+```js
 /**
    * 页面的初始数据
    */
@@ -46,7 +47,7 @@ tags: 微信小程序
     })
   }
 ```
-```
+```css
 page {
   width: 100%;
   height: 100%;
@@ -64,7 +65,7 @@ page {
 ```
 
 ###### 上一种方式需要计算比较麻烦，特别是有些根据网络请求回来的内容撑高，还可能要考虑一些数据不够、请求失败等问题，第二种是利用样式来自动拉伸，如使用flex布局
-```
+```html
 <view class='header'></view>
 <view class='box' ></view>
 ```
@@ -89,7 +90,8 @@ page {
 ```
 ![11.png](https://upload-images.jianshu.io/upload_images/1074666-8df66a94d61cac74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 可以看到预览完全没问题，接下来往里面放一个滚动视图scroll-view，设置为可以垂直滚动，高度设置为100%样式
-```
+
+```html
 <view class='header'>
 </view>
 <view class='box'>
@@ -107,7 +109,7 @@ page {
 </scroll-view>
 </view>
 ```
-```
+```css
 page {
   width: 100%;
   height: 100%;
@@ -131,8 +133,9 @@ page {
 - 疑问：小程序的说法是要求scroll-view一定要给一个固定的高度，不然就不行，难道只能用第一种方法来实现这个布局了？
 
 我发现一个tip，其实只要给外围的box一个高度即可，随便一个高度，因为设置了flex拉伸级别，这个高度不影响拉伸；在H5中是没意义的，但是这里可以解决问题；
-- ####最终给一个完整版本
-```
+- #### 最终给一个完整版本
+
+```html
 <view class='header'>
   <view>财经</view>
   <view>股票</view>
@@ -157,7 +160,7 @@ page {
   </scroll-view>
 </view>
 ```
-```
+```css
 page {
   width: 100%;
   height: 100%;
