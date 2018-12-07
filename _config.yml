@@ -50,9 +50,9 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   jianshu: '//www.jianshu.com/u/daa9355d681a'
-  weibo: '//https://weibo.com/2219704020/profile'
-  email: 'mail:404401637@qq.com'
-  github: '//https://github.com/shmchen'
+  weibo: '//weibo.com/2219704020/profile'
+  email: 'mailto:404401637@qq.com'
+  github: '//github.com/shmchen'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
