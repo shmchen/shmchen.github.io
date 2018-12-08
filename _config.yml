@@ -77,10 +77,14 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate,jekyll-mermaid]
+plugins: [jekyll-paginate,jekyll-toc]
 
 # 允许归档任何时间点的文章
 future: true
 
-mermaid:
-src: 'assets/js/mermaid.min.js'
+markdown: kramdown
+kramdown:
+    auto_ids: true,
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
