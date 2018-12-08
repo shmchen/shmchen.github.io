@@ -77,7 +77,10 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate,jekyll-mermaid]
 
 # 允许归档任何时间点的文章
 future: true
+
+mermaid:
+src: 'assets/js/mermaid.min.js'
