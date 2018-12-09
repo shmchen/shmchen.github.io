@@ -77,7 +77,7 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate,jekyll-toc]
+plugins: [jekyll-paginate]
 
 # 允许归档任何时间点的文章
 future: true
