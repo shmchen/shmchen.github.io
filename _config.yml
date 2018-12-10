@@ -83,6 +83,7 @@ plugins: [jekyll-paginate]
 future: true
 
 markdown: kramdown
+
 kramdown:
     auto_ids: true,
     footnote_nr: 1

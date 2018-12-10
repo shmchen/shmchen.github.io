@@ -2,6 +2,7 @@
 layout: post
 title: 'Hello markdown'
 date: 2018-04-18 17:03:38
+subtitle: 'Transform your plain text into static websites and blogs'
 author: 白屏
 cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1613194509,3683268681&fm=26&gp=0.jpg'
 tags: markdown
